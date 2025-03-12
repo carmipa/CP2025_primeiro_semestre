@@ -1,10 +1,10 @@
-package br.com.fiap.bank;
+package br.com.fiap.cp1_bank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BankCpApplicationTests {
+class Cp1BankApplicationTests {
 
 	@Test
 	void contextLoads() {

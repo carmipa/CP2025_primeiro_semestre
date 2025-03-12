@@ -1,4 +1,4 @@
-package br.com.fiap.bank.model;
+package br.com.fiap.cp1_bank.model;
 
 public class Conta {
 
@@ -103,3 +103,4 @@ public class Conta {
                 '}';
     }
 }
+

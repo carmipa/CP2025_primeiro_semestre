@@ -8,11 +8,11 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap.bank</groupId>
-	<artifactId>bank-cp</artifactId>
+	<groupId>br.com.fiap.cp1-bank</groupId>
+	<artifactId>cp1-bank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bank-cp</name>
-	<description>Demo project for Spring Boot</description>
+	<name>cp1-bank</name>
+	<description>cp1 java / spring / bank</description>
 	<url/>
 	<licenses>
 		<license/>
