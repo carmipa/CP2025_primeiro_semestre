@@ -1,94 +1,53 @@
-# 🚀 CP1 2025 - FIAP - java advanced - bank
+# 🚀 Projeto Semestral - 1º Semestre - FIAP - Java Advanced - Bank
 
-**Paulo André carminati RM557881**  
+**Integrantes do Grupo:**  
+**Paulo André Carminati RM557881**  
 **Gabielly Campos Macedo RM558962**
 
 ---
 
 ## Introdução
 
-Nesta missão, o objetivo é desenvolver uma API para a gestão de um banco digital, aplicando as melhores práticas na construção de APIs REST. O projeto pode ser realizado individualmente ou em dupla e deverá ser entregue por meio de um repositório no GitHub, conforme orientações no sistema Gemini Dev. A avaliação considerará a qualidade do código, a implementação das funcionalidades e a aplicação correta dos conceitos propostos.
-
-**Pontuação Máxima:** 100%
+Este projeto semestral consiste na aplicação prática das tecnologias e ferramentas estudadas durante o primeiro semestre de 2025. A proposta é a reformulação (refatoração) do challenge de 2024, incorporando as tecnologias Spring no backend e React no frontend, criando assim uma solução moderna para o gerenciamento de um banco digital.
 
 ---
 
-## Requisitos do Projeto
+## Tecnologias Utilizadas
 
-### 1. Criação do Projeto (20%)
-
-- Utilize o [Spring Initializr](https://start.spring.io/) ou a extensão do Spring no VSCode para criar um projeto **Spring Web** com suporte a **live reload**.
-- Crie um endpoint para o path `/` que retorne uma _String_ contendo:
-  - O nome do projeto.
-  - Os nomes dos integrantes da equipe.
-
-### 2. Cadastro de Conta (20%)
-
-- Crie um endpoint para cadastrar uma conta digital.
-- A conta deverá conter os seguintes atributos:
-  - **Número**
-  - **Agência**
-  - **Nome do Titular**
-  - **CPF do Titular**
-  - **Data de Abertura**
-  - **Saldo Inicial**
-  - **Ativa** (sim/não)
-  - **Tipo** (corrente, poupança ou salário)
-- Os dados devem ser armazenados em memória.
-
-### 3. Validação (20%)
-
-Implemente as seguintes validações para o cadastro da conta:
-
-- **Nome do Titular:** obrigatório.
-- **CPF do Titular:** obrigatório.
-- **Data de Abertura:** não pode ser uma data futura.
-- **Saldo Inicial:** não pode ser negativo.
-- **Tipo:** deve ser um dos tipos válidos (corrente, poupança ou salário).
-
-Caso algum dado inválido seja enviado, retorne um erro **400** com uma mensagem descritiva do problema.
-
-### 4. Buscas (10%)
-
-Desenvolva os seguintes endpoints de consulta:
-
-- Retornar **todas** as contas cadastradas.
-- Retornar uma conta por **ID**.
-- Retornar uma conta pelo **CPF do Titular**.
-
-### 5. Encerrar Conta (10%)
-
-- Crie um endpoint que receba o **ID** de uma conta e encerre essa conta.
-- A conta encerrada deve ser marcada como inativa na base de dados (armazenamento em memória).
-
-### 6. Depósito (10%)
-
-- Crie um endpoint para realizar um depósito na conta.
-- Os dados do depósito devem ser enviados no corpo da requisição (ID da conta e valor do depósito).
-- Se o valor for válido, ele deverá ser somado ao saldo da conta e os dados atualizados deverão ser retornados.
-
-### 7. Saque (10%)
-
-- Crie um endpoint para realizar um saque na conta.
-- Os dados do saque devem ser enviados no corpo da requisição (ID da conta e valor do saque).
-- Se o valor for válido, ele deverá ser subtraído do saldo da conta e os dados atualizados deverão ser retornados.
-
-### 8. PIX (20%)
-
-- Crie um endpoint para realizar uma transferência via PIX.
-- Os dados do PIX devem ser enviados no corpo da requisição, contendo:
-  - **ID da conta de origem**
-  - **ID da conta de destino**
-  - **Valor do PIX**
-- Se o valor for válido, ele deverá ser transferido da conta de origem para a conta de destino.
-- Retorne os dados atualizados da conta de origem.
+- **Java 17:** Linguagem base para o desenvolvimento da aplicação.
+- **Spring Web & Spring Tools:** Frameworks e ferramentas para desenvolvimento de aplicações web robustas.
+- **Maven:** Gerenciamento de dependências e build da aplicação.
+- **React:** Biblioteca para construção do frontend (quando aplicável).
 
 ---
 
-## Considerações Finais
+## Estrutura do Projeto
 
-- **Boas práticas:** Certifique-se de seguir as melhores práticas no desenvolvimento da API, incluindo tratamento de erros, organização do código e uso de padrões de projeto.
-- **Testes:** Sempre que possível, inclua testes unitários para garantir a robustez da aplicação.
-- **Documentação:** Mantenha este README atualizado e inclua instruções para a execução e testes da aplicação.
+A aplicação está dividida em dois módulos principais:
 
-Boa sorte e mãos à obra!
+1. **Backend:**  
+   Desenvolvido com Spring Web, com endpoints REST para gerenciar operações bancárias, seguindo as boas práticas e utilizando live reload para agilizar o desenvolvimento.
+
+2. **Frontend:**  
+   (Opcional) Desenvolvido com React, integrando com a API do backend para uma experiência completa do usuário.
+
+---
+
+## Funcionalidades Principais
+
+- **Cadastro e Gerenciamento de Contas:**  
+  Implementação de CRUD para contas bancárias, com validações e regras de negócio.
+
+- **Operações Bancárias:**  
+  Endpoints para operações como depósitos, saques, transferências via PIX e encerramento de contas.
+
+- **Boas Práticas e Padrões de Projeto:**  
+  Utilização de convenções e práticas modernas para garantir a qualidade e manutenibilidade do código.
+
+---
+
+## Como Executar
+
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/carmipa/CP2025_primeiro_semestre/tree/Paulo-RM557881/Java_Advanced/projeto-semestral
