@@ -1,16 +1,21 @@
-# Compiled class file
+#################################################################
+# Arquivos Compilados, Logs e Pacotes
+#################################################################
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
+spring.log
 
-# BlueJ files
+# BlueJ
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Pacotes e Arquivos Empacotados
 *.jar
 *.war
 *.nar
@@ -19,6 +24,396 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual Machine Crash Logs
 hs_err_pid*
 replay_pid*
+
+
+#################################################################
+# IDEs e Editores
+#################################################################
+
+## Eclipse IDE
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+target/
+out/
+
+## IntelliJ IDEA / WebStorm / DataGrip
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+## NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nbactions-private.xml
+.builds.xml
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## JetBrains Rider
+*.sln.iml
+*.suo
+*.user
+*.dotCover
+
+## Visual Studio (todos os padrões)
+.vs/
+*.suo
+*.user
+*.ipch
+*.ilk
+*.pdb
+*.obj
+*.cache
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+# Arquivos e pastas gerados
+Generated\ Files/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*_h.h
+*.meta
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+_Chutzpah*
+ipch/
+*[Cc]ache*
+$tf/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_TeamCity*
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+coverage*.{json,xml,info}
+*.coverage
+*.coveragexml
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+*.mm.*
+AutoTest.Net/
+.sass-cache/
+[Ee]xpress/
+DocProject/
+publish/
+*.[Pp]ublish{,.*}
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.{props,targets}
+csx/
+*.build.csdef
+ecf/
+rcf/
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+orleans.codegen.cs
+Generated_Code/
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.{XML,htm}
+ServiceFabricBackup/
+*.rptproj.bak
+
+
+#################################################################
+# Ferramentas de Build e Dependências
+#################################################################
+
+## Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+## Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+
+## Node.js / JavaScript / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+#################################################################
+# Frameworks e Plataformas Específicas
+#################################################################
+
+## Spring Boot
+!src/main/resources/static/
+!src/main/resources/templates/
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+!src/main/resources/application.yaml
+spring-boot-devtools.properties
+
+## Lombok
+.lombok.config
+.lombok/
+
+## Swagger / OpenAPI
+.swagger-codegen/
+openapi.json
+swagger-ui.html
+
+## Spring Tool Suite
+.sts4-cache/
+
+## Firebase e GCP
+.firebase/
+*.firebaserc
+firebase-debug.log
+firebase-error.log
+
+## React Native / Mobile (adicionais)
+.expo/
+.expo-shared/
+android/app/build/
+ios/Pods/
+*.keystore
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/
+*.xcassets
+*.gradle
+
+## Next.js
+.next/
+.vercel/
+.netlify/
+
+
+#################################################################
+# Configurações de Ambiente e Segurança
+#################################################################
+
+# Arquivos de configuração de ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Arquivos sensíveis e certificados
+secrets.yml
+*.pem
+*.key
+*.crt
+
+# Docker e Kubernetes
+.dockerignore
+docker-compose.override.yml
+.kube/
+kubernetes/
+helm/
+
+
+#################################################################
+# Arquivos e Pastas Temporárias / Cache
+#################################################################
+
+# Arquivos temporários e de cache
+.cache/
+.history/
+.tmp/
+.temp/
+*.swp
+*.swo
+*.bak
+*.old
+
+# Diretórios comuns de cache/temporários
+tmp/
+lib/
+dist/
+out/
+__pycache__/
+*.pyc
+
+
+#################################################################
+# Arquivos do Sistema Operacional
+#################################################################
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+desktop.ini
+
+
+#################################################################
+# Banco de Dados
+#################################################################
+
+## Oracle
+*.dmp
+*.ora
+*.ctl
+*.trc
+*.dat
+*.sqlj
+*.plb
+*.sql
+*.grd
+*.lck
+*.dbf
+*.mwb
+
+## MySQL
+*.sql
+*.csv
+*.cnf
+*.ibd
+
+## SQL Server
+*.mdf
+*.ldf
+*.bak
+*.trc
+*.dacpac
+*.bacpac
+*.sqlplan
+
+## MongoDB
+*.bson
+*.json
+*.lock
+
+## Cassandra
+*.cql
+*.db
+*.sst
+
+## PostgreSQL
+*.dump
+*.psql
+
+## Redis
+*.rdb
+*.aof
+
+
+#################################################################
+# Ferramentas de Banco de Dados e Modelagem
+#################################################################
+
+# SQL Developer, DataGrip, DBeaver e similares
+*.sqldeveloper/
+*.dbeaver-data/
+*.dbsettings
+*.dba
+*.dmd
+*.dmx
+*.pds
+.datagrid/
+*.temp
+
+# Arquivos de ambiente para SQLite e similares
+*.sqlite3
+*.sqlite
+
+
+#################################################################
+# Outras Configurações (Diversos)
+#################################################################
+
+# Configuração do Tomcat e servidores similares
+.tomcat/
+.jboss/
+
+# Arquivos gerados por servidores locais
+*.out
+*.err
+nohup.out
+
+# Arquivos de cache do Java
+.jenkins/
+.jmc/
+.jfr/
+
+# SQL Developer / DataGrip (repetidos acima, mas por garantia)
+*.sqldeveloper/
+
+# Ferramentas de modelagem e gerenciamento
+*.gpState
+
+# Python Tools for Visual Studio (PTVS)
+# (já incluído em __pycache__ e *.pyc)
+
+# Outras ferramentas e configurações
+.ntvs_analysis.dat
+*.plg
+*.opt
+*.vbw
+*.vbp
+*.dsw
+*.dsp
