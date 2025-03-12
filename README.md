@@ -93,7 +93,7 @@ A avaliação do CP será baseada em:
 
 Feedbacks e contribuições são sempre bem-vindos! Caso tenha sugestões ou melhorias para o projeto ou materiais de estudo, fique à vontade para abrir uma **issue** ou **pull request**.
 
-**Repositório no GitHub**: [CP-2025-FIAP]([https://github.com/usuario-exemplo/CP-2025-FIAP](https://github.com/carmipa/CP2025_primeiro_semestre))
+**Repositório no GitHub**: [CP2025_primeiro_semestre]([https://github.com/usuario-exemplo/CP-2025-FIAP](https://github.com/carmipa/CP2025_primeiro_semestre)
 
 ---
 
