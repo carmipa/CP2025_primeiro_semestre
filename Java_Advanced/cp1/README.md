@@ -92,3 +92,6 @@ Desenvolva os seguintes endpoints de consulta:
 - **Documentação:** Mantenha este README atualizado e inclua instruções para a execução e testes da aplicação.
 
 Boa sorte e mãos à obra!
+
+**Repositório no GitHub**: [CP1 - bank](https://github.com/carmipa/CP2025_primeiro_semestre/tree/main/Java_Advanced/cp1)
+
