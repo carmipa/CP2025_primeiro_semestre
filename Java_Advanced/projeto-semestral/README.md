@@ -1,4 +1,4 @@
-# 🚀 Projeto Semestral - 1º Semestre - FIAP - Java Advanced - Bank
+# 🚀 Projeto Semestral - 1º Semestre - FIAP - Java Advanced
 
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
