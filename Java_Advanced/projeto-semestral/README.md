@@ -46,8 +46,5 @@ A aplicação está dividida em dois módulos principais:
 
 ---
 
-## Como Executar
+**Repositório no GitHub**: [Projeto Semestral](https://github.com/carmipa/CP2025_primeiro_semestre/tree/main/Java_Advanced/projeto-semestral)
 
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/carmipa/CP2025_primeiro_semestre/tree/Paulo-RM557881/Java_Advanced/projeto-semestral
