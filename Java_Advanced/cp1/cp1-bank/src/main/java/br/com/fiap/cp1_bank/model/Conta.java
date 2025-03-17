@@ -1,5 +1,7 @@
 package br.com.fiap.cp1_bank.model;
 
+import java.util.Objects;
+
 public class Conta {
 
     private long numero;
@@ -101,6 +103,18 @@ public class Conta {
                 ", ativa=" + ativa +
                 ", tipoConta='" + tipoConta + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Conta conta = (Conta) o;
+        return numero == conta.numero && agencia == conta.agencia && Double.compare(saldoInicial, conta.saldoInicial) == 0 && ativa == conta.ativa && Objects.equals(nomeTitular, conta.nomeTitular) && Objects.equals(cpfTitular, conta.cpfTitular) && Objects.equals(dataAbertura, conta.dataAbertura) && Objects.equals(tipoConta, conta.tipoConta);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(numero, agencia, nomeTitular, cpfTitular, dataAbertura, saldoInicial, ativa, tipoConta);
     }
 }
 
