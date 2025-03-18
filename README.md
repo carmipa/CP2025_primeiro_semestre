@@ -1,4 +1,4 @@
-# 🚀 CP 2025 - FIAP
+# 🚀 CP 2025 - FIAP - TDSPZ
 
 Este repositório reúne as disciplinas estudadas durante o semestre no curso de Análise e Desenvolvimento de Sistemas da FIAP. O objetivo é centralizar projetos, atividades e materiais de apoio para cada uma das matérias, facilitando a organização e o acompanhamento do progresso.
 
